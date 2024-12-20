@@ -1,0 +1,18 @@
+html {
+  background-color: rgb(255, 255, 255);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin-left: 700px;
+  margin-top: 200px;
+
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  text-align: center;
+
+  height: 340px;
+  width: 200px;
+}
