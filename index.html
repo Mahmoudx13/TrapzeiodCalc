@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Trapezoid Area Calculator</title>
+    <script src="java.js"></script>
+  </head>
+  <body>
+    <div>
+      <h2>Trapezoid Area Calculator</h2>
+
+      <label>Top Base (a):</label>
+      <input type="number" id="topBase" /><br /><br />
+
+      <label>Bottom Base (b):</label>
+      <input type="number" id="bottomBase" /><br /><br />
+
+      <label>Height (h):</label>
+      <input type="number" id="height" /><br /><br />
+
+      <button onclick="calculateArea()">Calculate Area</button>
+
+      <h3>Area: <span id="areaResult">0</span></h3>
+    </div>
+  </body>
+</html>
